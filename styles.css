@@ -1,0 +1,82 @@
+*{
+    margin : 0 ;
+    padding : 0 ;
+    
+     box-sizing: border-box;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.hero{
+    width: 100%;
+    min-height :100vh;
+    padding : 10px 10px;
+    overflow : hidden ;
+    position:relative;
+}
+nav{
+    padding :10 px;
+    display : flex ;
+    align-items : center ;
+    justify-content :space-between;
+}
+.logo{
+    width :120px;
+}
+nav ul li{
+    display : inline-block ;
+    list-style :none ;
+    margin :10px 15px ;
+    font-size: 30px; 
+    word-spacing: normal;
+}
+nav ul li a {
+    text-decoration : none ;
+    color :black ;
+    font-weight : 400 ;
+    
+}
+.btn {
+    display: inline-block;
+    text-decoration : none ;
+    padding :14px 40px ;
+    color : white;
+    background-image: linear-gradient(45deg , #0c0b0b , #0a090a);
+    font-size :14px ;
+    border-radius : 30px ;
+    border-top-right-radius : 0 ;
+    transition: 0.5s;
+}
+.content {
+     margin-top :5% ;
+     max-width :750px ;
+     margin-left: 2%;
+    
+}
+.content h1 {
+    font-size :70px ;
+    color :black;
+}
+.content h2{
+    
+    font-size :40px ;
+    font-weight: 500;
+}
+.content p{
+    margin : 10px 0 30px ;
+    color :black;
+    font-size: 28px;
+}
+.content .btn{
+    padding :15px  70px;
+    font-size : 20px;
+}
+.btn:hover {
+    border-top-right-radius : 30px;
+}
+.feature-img{
+    width : 360px ;
+    position :absolute ;
+    bottom : 0 ;
+    right : 10%;
+    size-adjust: 10%;
+}
